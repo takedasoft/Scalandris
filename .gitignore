@@ -1,0 +1,5 @@
+.classpath
+.settings
+gen
+.project
+.scala_dependencies

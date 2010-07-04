@@ -1,0 +1,30 @@
+
+Scalandris
+============
+
+android-sdk for Scala
+http://lamp.epfl.ch/~michelou/android/
+を利用した実装サンプル。
+
+2010/07/08 のScala勉強会＠東北のプレゼンネタです。
+
+Scala+Android でTetrisを実装してみました。
+テトリスのコードは、以下のURLから移植しています（不完全）
+http://zapanet.info/blog/item/1125
+
+
+起動方法
+========
+
+開発環境の準備については以下のURLを参考にしてください。
+http://blog.takeda-soft.jp/blog/show/381
+
+local.propertiesを環境に合わせて、
+
+ > emulator -no-boot-anim -avd avd_for_apilevel8
+
+ > cd Scalandris
+ > set ANT_OPTS=-Xmx1024m
+ > ant debug
+ > ant install
+
